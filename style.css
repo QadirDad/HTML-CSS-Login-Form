@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    background: #589ED9;
+}
+
+.container {
+    color: white;
+    text-align: center;
+    width: 220px;
+    margin: 200px auto;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+
+}
+
+.fa-weibo {
+    font-size: 50px;
+    color: white;
+}
+
+form{
+    margin-top: 15px;
+}
+
+form .email,
+form .password{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-size: 13px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-indent: 20px;
+
+}
+
+
+form .email{
+	border-bottom: 0;
+    border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+}
+
+form .password{
+	border-top: 1px solid #ccc;
+    border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;	
+}
+
+form input[type="submit"] {
+    margin: 10px 0;
+    padding-block: 10px;
+    border-radius: 6px;
+    width: 100%;
+    background: #2186d4;
+	color: #fff;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+input:focus{
+    outline: none;
+}
